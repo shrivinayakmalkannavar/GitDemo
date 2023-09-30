@@ -34,6 +34,7 @@ public class Login extends BaseTest {
 	{
 		return gettitle() ;
 		
+		
 	}
 	
 //	public void  SetUsername(String username)
@@ -57,10 +58,12 @@ public class Login extends BaseTest {
 		driver.findElement(uname).sendKeys(username);
 		driver.findElement(pass).sendKeys(password);
 		driver.findElement(submit).click();
+		System.out.println("successfully logged in to the site");
 		
 		driver.findElement(orgdrp).click();
 		Thread.sleep(6000);
 		driver.findElement(orgselctn).click();
+	    System.out.println("successfully selected organization");
 		
 		
 		
