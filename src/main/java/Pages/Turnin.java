@@ -48,14 +48,14 @@ public class Turnin extends BaseTest {
 	{
 		driver.findElement(vinid).sendKeys(vin);
 		System.out.println("Entered vin");
-		System.out.println("After this it will land to turn in 2nd page");
+		
 	}
 	
    public void continueclick()
    {
 	   driver.findElement(continurbtn).click();
 	   System.out.println("clicked turn in ");
-	   System.out.println("it will land to completeion page");
+	
    }
    
    public void continue2()
