@@ -34,21 +34,25 @@ public class Turnin extends BaseTest {
 	public void toolsclick()
 	{
 		driver.findElement(tools).click();
+		System.out.println("clicked tools");
 	}
 	
 	public void turninclick()
 	{
 		driver.findElement(tuenin).click();
+		System.out.println("Clicked turn in");
 	}
 	
 	public void vinid(String vin)
 	{
 		driver.findElement(vinid).sendKeys(vin);
+		System.out.println("Entered vin");
 	}
 	
    public void continueclick()
    {
 	   driver.findElement(continurbtn).click();
+	   System.out.println("clicked turn in ");
    }
    
    public void continue2()
